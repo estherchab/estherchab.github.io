@@ -1,0 +1,86 @@
+h1 {
+  background: #ffcccc;
+  font-family: 'Courier New';
+  text-align:center;
+  font-size:25px;
+      padding: 15px;
+}
+p {
+  background: white;
+  color:  #ffcccc;
+  font-family: 'Courier New';
+}
+body {
+  background: gray;
+}
+html {
+    height: 100%;
+}
+#birthday  {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#age {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#school {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#friend {
+    background:none;
+    text-align:center;
+    font-size:25px;
+}
+#dance {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#middle {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#florida {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+#code {
+  background:none;
+  text-align:center;
+  font-size:25px;
+  }
+#take {
+  background:none;
+  text-align:center;
+  font-size:25px;
+}
+img{
+  width:50%;
+  height:10;
+}
+
+button {
+  padding:5px;
+  font-size:20px;
+}
+
+#slideshow img {
+  max-height:300px;
+}
+#pictures {
+  font-family: 'Courier New';
+  background: #003399;
+}
+video {
+  border:4px solid pink;
+}
+img {
+  border: 4px solid pink;
+}

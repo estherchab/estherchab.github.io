@@ -1,0 +1,57 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="buttons.css">
+
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div id="slideshow" class="w3-content w3-display-container">
+  <img class="mySlides" src="sunset.jpg" style="width:100%">
+  <img class="mySlides" src="jen.jpg" style="width:100%">
+  <img class="mySlides" src="house.jpg" style="width:100%">
+  <img class="mySlides" src="boat.jpg" style="width:60%; display:block; margin:auto;">
+  <img class="mySlides" src="asbury.jpg" style="width:60%; display:block; margin:auto;">
+  <img class="mySlides" src="july.jpg" style="width:40%; display:block; margin:auto;">
+  <img class="mySlides" src="girlies.jpg" style="width:60%; display:block; margin:auto;" >
+  <img class="mySlides" src="summer.jpg" style="width:60%; display:block; margin:auto;">
+  <img class="mySlides" src="fun.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="kisses.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="wedding.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="birthday.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="kith.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="girls.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="chillin.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="school.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="engaged.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="smiles.jpg" style="width:60%;display:block; margin:auto;">
+  <img class="mySlides" src="bricks.jpg" style="width:100%">
+  <img class="mySlides" src="city.jpg" style="width:100%">
+  <img class="mySlides" src="bffs.jpg" style="width:100%">
+
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+<a href="photos.html"><button><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></button></a><br><br>
+<a href="hobbies.html"><button><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button></a><br><br>
+<iframe id="onlyone" width="560" height="315" src="https://www.youtube.com/embed/p7_qZSYAxoQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
